@@ -7,7 +7,7 @@ from decouple import config
 BASE_DIR = os.path.abspath('.')
 
 #DEBUG = config('DEBUG', cast=bool)
-DEBUG = True
+DEBUG = False
 
 #SECRET_KEY = config('SECRET_KEY') or \
 SECRET_KEY = ''.join(random.choice(string.ascii_letters) for i in range(42))
